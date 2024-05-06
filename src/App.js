@@ -216,12 +216,13 @@
 // export default App
 
 import React from 'react'
-import TextToSpeech from "./Components/TextToSpeech"
+//import TextToSpeech from "./Components/TextToSpeech"
+import PasswordGenerator from "./Components/PasswordGenerator"
 
 const App = () => {
   return (
     <div>
-      <TextToSpeech/>
+      <PasswordGenerator/>
     </div>
   )
 }
